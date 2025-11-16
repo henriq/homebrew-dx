@@ -17,22 +17,22 @@ cask "dx-prerelease" do
   on_macos do
     on_intel do
       url "https://github.com/henriq/dx/releases/download/v#{version}/dx_Darwin_x86_64.tar.gz"
-      sha256 "80fc1717c11ab91d4cf905abb3c63b81e64fbed9e01f93add31f4f76dfdfbb01"
+      sha256 "6e32a1e7def3a990576c2f34a206032a55bd9b1be6a18d630ad1e2b3ef3d8a8e"
     end
     on_arm do
       url "https://github.com/henriq/dx/releases/download/v#{version}/dx_Darwin_arm64.tar.gz"
-      sha256 "2be6dab68aba819f5ba4372fc57d236ab917a30b81595284f6f819cc4ecb3bd2"
+      sha256 "1754596fb1fe4a9206e53480e17854ab69c7c7f1f2e3f698601f0e82b627f781"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/henriq/dx/releases/download/v#{version}/dx_Linux_x86_64.tar.gz"
-      sha256 "ea6a4a8584d769f6aae304955f2375133a588b8f4d14856bd7f0939e13e1e0de"
+      sha256 "8d1b076ed38cf138698f0afb6859f3b5c6e615a476dfaa272e168b416e91ba5e"
     end
     on_arm do
       url "https://github.com/henriq/dx/releases/download/v#{version}/dx_Linux_arm64.tar.gz"
-      sha256 "4ebdeba2413def7a1df30bd44904f255f017ec3f8d058178942b2ac83bfcbef0"
+      sha256 "e303b918b7021dfedf0626d6321ba462a85abe5c6b069b1a7db1a2b88dc3c9aa"
     end
   end
 
