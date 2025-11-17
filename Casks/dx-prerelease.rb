@@ -3,7 +3,7 @@ cask "dx-prerelease" do
   name "dx-prerelease"
   desc "DX is a tool for managing a local development environment using kubernetes (prerelease)"
   homepage "https://henriq.se/"
-  version "0.1.9-prerelease+308293e0"
+  version "0.1.10-prerelease+0339049e"
 
   livecheck do
     skip "Auto-generated on release."
@@ -17,22 +17,22 @@ cask "dx-prerelease" do
   on_macos do
     on_intel do
       url "https://github.com/henriq/dx/releases/download/v#{version}/dx_Darwin_x86_64.tar.gz"
-      sha256 "3c5ca7d25229a7216e403108b9258adb1d363ddc56663a242f734e2ac88f0832"
+      sha256 "13e87ba730d38b984f29a5640e72d9757a6a4aba292fb7c4a724809dda6f0651"
     end
     on_arm do
       url "https://github.com/henriq/dx/releases/download/v#{version}/dx_Darwin_arm64.tar.gz"
-      sha256 "8dc269d4ca8133cde39fb8ccb1ee46b2587b05cc2bde2623664336c965552b27"
+      sha256 "5471633d13c8dfefd50d90d219d6db73e06d12add25ff1f7dc41abbc26b9bdd9"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/henriq/dx/releases/download/v#{version}/dx_Linux_x86_64.tar.gz"
-      sha256 "0ec16cf6e7909f3c1248725acbfa94d6bbf14e9f53e7b59b6eeb47c4d3531799"
+      sha256 "cf8fbd0f63102037b15c2963c0599820a20f6a8b52eed2cdfcae2aed6e2c8fc5"
     end
     on_arm do
       url "https://github.com/henriq/dx/releases/download/v#{version}/dx_Linux_arm64.tar.gz"
-      sha256 "a674ae595b5b76d9cc4db27424c2b5f78c5c32ccc5854430c43e3152547f8a8b"
+      sha256 "674f63cb1cfd1db72d05bcc8fac145af0103878bc97d95cfb095bd64324b259e"
     end
   end
 
