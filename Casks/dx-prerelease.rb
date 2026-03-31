@@ -36,9 +36,6 @@ cask "dx-prerelease" do
     ]
 
   binary "dx"
-  bash_completion "completions/dx.bash"
-  fish_completion "completions/dx.fish"
-  zsh_completion "completions/dx.zsh"
 
   # No zap stanza required
 
